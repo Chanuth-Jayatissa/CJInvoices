@@ -1,5 +1,5 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
-export const experimental_ppr = true;
+// export const experimental_ppr = true;  // PPR does not work with vercel
  
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (

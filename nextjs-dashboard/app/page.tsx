@@ -11,7 +11,7 @@ export default function Page() {
       </div>
       <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
-          <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
+          <p className={`${lusitana.className} text-xl text-black md:text-3xl md:leading-normal`}>
             <strong>Welcome to CJ Invoices.</strong> This is my first project that manages customer invoices.
           </p>
           <Link
@@ -22,7 +22,7 @@ export default function Page() {
           </Link>
         </div>
         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
-          <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal text-center`}>
+          <p className={`${lusitana.className} text-xl text-black md:text-3xl md:leading-normal text-center`}>
             <strong>Tech Stack</strong><br/><br/>
           </p>
             <ul className="grid grid-cols-2 gap-x-4 list-disc list-inside text-xl md:text-2xl text-gray-800">

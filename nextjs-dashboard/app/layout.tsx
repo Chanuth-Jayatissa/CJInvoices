@@ -7,8 +7,8 @@ export const metadata: Metadata = {
     template: '%s | CJ Invoices',
     default: 'CJ Invoices',
   },
-  description: 'The official Next.js Learn Dashboard built with App Router.',
-  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+  description: 'My first project that manages customer invoices.',
+  metadataBase: new URL('https://cjinvoices.vercel.app'),
 };
 
 export default function RootLayout({
